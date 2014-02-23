@@ -1,7 +1,7 @@
-# Nginx Bad Bot Blocker
+# Nginx Blacklist
 **This was inspired by [bluedragonz/bad-bot-blocker](https://github.com/bluedragonz/bad-bot-blocker) and ported to nginx.**
 
-**blacklist.conf** utilizes the following two nginx modules to achieve the same results as the original **bad-bot-blocker**: `ngx_http_geo_module` and `ngx_http_map_module`. This provides admins with a single configuraiton file used for blacklisting any bots or malicious web crawlers.
+**blacklist.conf** utilizes the following two nginx modules to achieve the same results as the original **bad-bot-blocker**: `ngx_http_geo_module` and `ngx_http_map_module`. This provides admins with a single configuration file used for blacklisting any bots or malicious web crawlers without the need to complicate server blocks.
 
 ----
 
